@@ -41,7 +41,7 @@ start_instance() {
 		#rm -f $config_path/identity.public
 	fi
 	
-	if [ -n "$planet"]; then
+	if [ -n "$planet" ]; then
 		logger -t "zerotier" "找到planet,正在写入文件,请稍后..."
 		echo "$planet" >$config_path/planet.tmp
 		base64 -d $config_path/planet.tmp >$config_path/planet
