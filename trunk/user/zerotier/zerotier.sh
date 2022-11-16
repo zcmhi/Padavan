@@ -5,7 +5,7 @@ PROG=/usr/bin/zerotier-one
 PROGCLI=/usr/bin/zerotier-cli
 PROGIDT=/usr/bin/zerotier-idtool
 config_path="/etc/storage/zerotier-one"
-PLANET="/etc/storage/zerotier-one/planet"
+PLANET="/etc/storage/planet"
 start_instance() {
 	cfg="$1"
 	echo $cfg
